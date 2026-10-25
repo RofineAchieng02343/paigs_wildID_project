@@ -42,7 +42,7 @@ def _to_read(row: ConfigThreshold) -> ConfigThresholdRead:
         param_name=definition.param_name,
         label=definition.label,
         description=definition.description,
-        value=config_service.value_of(row),
+        value=config_service.value _of(row),
         value_type=definition.value_type,
         default=definition.default,
         choices=list(definition.choices) if definition.choices else None,
